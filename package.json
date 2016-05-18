@@ -1,19 +1,17 @@
 {
-  "name": "react-redux-webpack-boilerplate",
+  "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate with Express, React, Redux, SASS and webpack",
+  "description": "Boilerplate with Express, React, Redux, SASS and Webpack",
   "main": "app.js",
   "scripts": {
     "server": "node server/app.js",
-    "test": "npm run testserver && npm run testclient",
-    "testclient": "mocha --compilers js:babel-core/register --recursive client/tests/*.js",
-    "testserver": "mocha --compilers js:babel-core/register --recursive server/tests/*.js",
+    "test": "mocha --compilers js:babel-core/register --recursive tests/*.js",
     "build": "webpack",
     "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edcarr/react-redux-webpack-boilerplate.git"
+    "url": "git+https://github.com/edcarr/react-boilerplate.git"
   },
   "keywords": [
     "boilerplate",
@@ -26,16 +24,13 @@
   "author": "Ed Carr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/edcarr/react-redux-webpack-boilerplate/issues"
+    "url": "https://github.com/edcarr/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/edcarr/react-redux-webpack-boilerplate#readme",
+  "homepage": "https://github.com/edcarr/react-boilerplate#readme",
   "dependencies": {
-    "body-parser": "^1.15.1",
     "bootstrap-sass": "^3.3.6",
     "css-loader": "^0.23.1",
-    "express": "^4.13.4",
     "history": "^2.1.1",
-    "isomorphic-fetch": "^2.2.1",
     "jquery": "^2.2.3",
     "node-sass": "^3.7.0",
     "react": "^15.0.2",
@@ -44,7 +39,6 @@
     "react-router": "^2.4.0",
     "react-router-redux": "^4.0.4",
     "redux": "^3.5.2",
-    "redux-logger": "^2.6.1",
     "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
@@ -59,6 +53,7 @@
     "jsdom": "^9.0.0",
     "mocha": "^2.4.5",
     "redux-devtools": "^3.3.1",
+    "redux-logger": "^2.6.1",
     "resolve-url-loader": "^1.4.3",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",

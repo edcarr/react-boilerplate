@@ -1,2 +1,2 @@
 # react-boilerplate
-Boilerplate with Express, React, Redux, SASS and webpack
+Boilerplate with Express, React, Redux, SASS and Webpack

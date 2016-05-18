@@ -1,3 +1,4 @@
-node_modules/  
-npm-debug.log  
+node_modules/
+dist/bundle.js
+npm-debug.log
 .DS_Store

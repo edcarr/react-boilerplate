@@ -4,7 +4,7 @@ var ROOT_PATH = path.resolve(__dirname);
 
 module.exports = {  
   entry: [
-    path.resolve(ROOT_PATH, 'client/app/app'),
+    path.resolve(ROOT_PATH, 'app/app'),
     'bootstrap-loader'
   ],
   module: {
@@ -33,12 +33,12 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   output: {
-    path: path.resolve(ROOT_PATH, 'client/dist'),
+    path: path.resolve(ROOT_PATH, 'dist'),
     publicPath: '/',
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: path.resolve(ROOT_PATH, 'client/dist'),
+    contentBase: path.resolve(ROOT_PATH, 'dist'),
     historyApiFallback: true,
     hot: true,
     inline: true,
