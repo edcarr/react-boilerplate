@@ -1,0 +1,69 @@
+{
+  "name": "react-redux-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate with Express, React, Redux, SASS and webpack",
+  "main": "app.js",
+  "scripts": {
+    "server": "node server/app.js",
+    "test": "npm run testserver && npm run testclient",
+    "testclient": "mocha --compilers js:babel-core/register --recursive client/tests/*.js",
+    "testserver": "mocha --compilers js:babel-core/register --recursive server/tests/*.js",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edcarr/react-redux-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "redux",
+    "sass",
+    "webpack",
+    "express"
+  ],
+  "author": "Ed Carr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edcarr/react-redux-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/edcarr/react-redux-webpack-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "bootstrap-sass": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "express": "^4.13.4",
+    "history": "^2.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^2.2.3",
+    "node-sass": "^3.7.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.0",
+    "react-router-redux": "^4.0.4",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "bootstrap-loader": "^1.0.10",
+    "chai": "^3.5.0",
+    "file-loader": "^0.8.5",
+    "jsdom": "^9.0.0",
+    "mocha": "^2.4.5",
+    "redux-devtools": "^3.3.1",
+    "resolve-url-loader": "^1.4.3",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
