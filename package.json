@@ -18,8 +18,7 @@
     "react",
     "redux",
     "sass",
-    "webpack",
-    "express"
+    "webpack"
   ],
   "author": "Ed Carr",
   "license": "MIT",

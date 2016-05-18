@@ -1,2 +1,15 @@
 # react-boilerplate
-Boilerplate with Express, React, Redux, SASS and Webpack
+
+Boilerplate with:
+
+* React
+* React Router
+* Redux
+* Babel
+* Webpack
+* Sass
+* Bootstrap Sass
+* Mocha
+* Chai
+* Enzyme
+
